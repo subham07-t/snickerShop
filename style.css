@@ -51,6 +51,9 @@ ul li {
   margin-top: 20px;
   transform: rotate(45deg);
 }
+.s1_mid {
+  transform: translateY(20px);
+}
 
 .s1_bot ul {
   display: flex;
@@ -138,13 +141,16 @@ ul li {
   width: 100%;
   text-align: center;
 }
+.s2_top {
+margin-top: 20px;
+}
+.s2_mid {
+transform: translateY(-50px);
+}
 
-.s2_bot p {
-  box-sizing: border-box;
+.s2_bot {
+  width: 100px;
   text-align: center;
-  display: inline-block;
-  height: auto;
-  transform: rotate(90deg);
+  transform: rotate(90deg) translateX(-60px);
   font-size: small;
-  margin-bottom: 20px;
 }
