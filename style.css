@@ -19,13 +19,13 @@ body {
   width: 100%;
   height: 100%;
 }
-
+                                                                        /* sidebar1 */
 .sidebar1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color:white;
+  background-color: white;
   width: 60px;
 }
 
@@ -51,6 +51,10 @@ ul li {
   margin-top: 20px;
   transform: rotate(45deg);
 }
+.s1_mid {
+  transform: translateY(20px);
+}
+
 .s1_bot ul {
   display: flex;
   flex-direction: column;
@@ -58,19 +62,97 @@ ul li {
   margin-bottom: 20px;
 
 }
-
+                                                                             /* main1 */
 .main1 {
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #cd0c1d;
   width: calc(50% - 60px);
 }
 
+.main1 img {
+  width: 100%;
+}
+                                                                         /* main2 */
 .main2 {
+  display: flex;
+  flex-direction: column;
   background-color: lightcoral;
   width: calc(50% - 60px);
 }
 
+.m2_top {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80%;
+}
+
+.m2_top div {
+  width: 50%;
+  height: 50%;
+}
+
+.m2_top img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.m2_bot {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  width: 100%;
+  height: 20%;
+}
+
+.m2_bot div {
+  width: 50%;
+  height: 50%;
+}
+
+.m2_top img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.m2_bot div {
+  border: 2px solid black;
+  width: 50%;
+  height: 100%;
+}
+                                                                           /* sidebar2 */
 .sidebar2 {
-  background-color: lightgreen;
+  background-color: white;
   width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.s2_top,
+.s2_mid,
+.s2_bot {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+.s2_top {
+margin-top: 20px;
+}
+.s2_mid {
+transform: translateY(-50px);
+}
+
+.s2_bot {
+  width: 100px;
+  text-align: center;
+  transform: rotate(90deg) translateX(-60px);
+  font-size: small;
 }
 
