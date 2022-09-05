@@ -244,7 +244,7 @@ body {
   width: calc(100% - 60px);
 }
 
-.m2_top {
+.m2-top {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -390,7 +390,7 @@ body {
     transform: scale(0.7) translateY(-70px);
   }
 }
-.m2_bot {
+.m2-bot {
   display: flex;
   flex-wrap: wrap;
   background-color: lightgray;
@@ -398,22 +398,22 @@ body {
   height: 20%;
 }
 
-.m2_bot div {
+.m2-bot div {
   width: 50%;
   height: 100%;
   font-size: 30px;
   text-align: center;
 }
 
-.m2_top img {
+.m2-top img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
-.m2_bot div:nth-child(1) {
+.m2-bot div:nth-child(1) {
   background-color: #ffffff;
 }
-.m2_bot div:nth-child(2) {
+.m2-bot div:nth-child(2) {
   background-color: #f3f3f5;
 }
 /*/ /////////////////////////////////////////// sidebar2 ///////////////////////////*/
@@ -427,21 +427,21 @@ body {
   justify-content: space-between;
 }
 
-.s2_top,
-.s2_mid,
-.s2_bot {
+.s2-top,
+.s2-mid,
+.s2-bot {
   background-color: white;
   width: 100%;
   text-align: center;
 }
-.s2_top {
+.s2-top {
   margin-top: 20px;
 }
-.s2_mid {
+.s2-mid {
   transform: translateY(-50px);
 }
 
-.s2_bot {
+.s2-bot {
   width: 100px;
   text-align: center;
   transform: rotate(90deg) translateX(-60px);
